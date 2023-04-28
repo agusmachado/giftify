@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.divPrincipal{
+    background-color: aquamarine;
+    width: 700px;
+    height: 450px;
+    display: flex; 
+    justify-content: space-around;
+       
+}
+
+.imagen{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3%;
+}
+
+.formulario{
+    border-color: rgb(150, 134, 134);
+    
+}
+
+.divIconosRedes{
+    display: flex;
+}
+
+.divBotonesMailNumber{
+    display: flex;
+}
