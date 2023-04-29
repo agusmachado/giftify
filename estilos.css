@@ -100,5 +100,26 @@
 
 .divBotonesMailNumber{
     display: flex;
+    justify-content: space-around; 
 }
 
+.boton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(231, 99, 22);
+    width: 80px;
+    border: none;
+    border-radius: 7%;
+}
+.boton2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    width: 100px;
+    border: none;
+    border-radius: 7%;
+}
