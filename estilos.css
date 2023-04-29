@@ -1,34 +1,36 @@
 *{
     margin: 10;
-    padding: 10;    
+    padding: 10;  
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 .divPrincipal{
     /* background-color: aquamarine; */
-    margin: 5%;
-    padding: 0%;
-    width: 1000px;
-    height: 650px;
+    width: 50%;
+    height: 550px;
     display: flex; 
-    justify-content: space-between;
-       
+    justify-content: space-between;    
+    position: relative;
+    padding: 40px;
+    margin: 15px auto;   
 }
 
 /* DIV - IMAGEN PRINCIPAL */
+
 
 .imagen{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    border-radius: 3%;
-}
+    border-radius: 3%; 
+    }
 
 /* DIV - FORMULARIO */
 
 .formulario{
     width: 400px;
-    border: 0.1px solid rgb(202, 198, 198);
-    box-shadow: 0.1px 0px 0px 0px rgb(158, 156, 156);
+    border: 0.01px solid rgb(226, 217, 217);
+    box-shadow: 0px -2px 10px rgba(185, 183, 183, 0.5);
     border-radius: 3%;
 }
 
@@ -39,7 +41,7 @@
 }
 
 .signIn{
-    font-family: Arial, Helvetica, sans-serif;
+    
     display: flex;
     justify-content: center;
     color: rgb(20, 20, 20);    
@@ -64,7 +66,7 @@
 /* TEXTO CENTRAL - OR CONTINUE WITH */
 
 .textoConLinea {
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 15px;
     font-weight: bold;
     line-height: 1em;
@@ -104,7 +106,7 @@
 }
 
 .boton{
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 12px;
     font-weight: bold;
     color: white;
@@ -114,7 +116,7 @@
     border-radius: 7%;
 }
 .boton2{
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 12px;
     font-weight: bold;
     color: black;
@@ -127,7 +129,7 @@
 /* BOTON SIGN IN */
 
 .boton3{
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 12px;
     font-weight: bold;
     color: white;
@@ -137,3 +139,4 @@
     border-radius: 7%;
 }
 
+/* INPUTS FORMULARIO */
