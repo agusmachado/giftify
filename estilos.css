@@ -7,7 +7,7 @@
 .divPrincipal{
     /* background-color: aquamarine; */
     width: 50%;
-    height: 550px;
+    height: 540px;
     display: flex; 
     justify-content: space-between;    
     position: relative;
@@ -28,10 +28,10 @@
 /* DIV - FORMULARIO */
 
 .formulario{
-    width: 400px;
+    width: 390px;
     border: 0.01px solid rgb(226, 217, 217);
     box-shadow: 0px -2px 10px rgba(185, 183, 183, 0.5);
-    border-radius: 3%;
+    border-radius: 3%;       
 }
 
 /* SECCIÓN REDES */
@@ -140,3 +140,7 @@
 }
 
 /* INPUTS FORMULARIO */
+
+.inputsFormulario{
+    left: 25px;   
+}
