@@ -1,12 +1,12 @@
 *{
     margin: 10;
-    padding: 10;
-    
+    padding: 10;    
 }
 
 .divPrincipal{
     /* background-color: aquamarine; */
-    margin: 20%;
+    margin: 5%;
+    padding: 0%;
     width: 1000px;
     height: 650px;
     display: flex; 
@@ -48,6 +48,14 @@
     justify-content: center;
 }
 
+.continuarFormulario{
+    display: flex;
+    justify-content: center;
+
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 .formulario{
     width: 400px;
     border: 0.1px solid rgb(202, 198, 198);
@@ -60,3 +68,4 @@
 .divBotonesMailNumber{
     display: flex;
 }
+
