@@ -14,13 +14,25 @@
        
 }
 
+/* DIV - IMAGEN PRINCIPAL */
+
 .imagen{
     display: inline-block;
     position: relative;
     overflow: hidden;
     border-radius: 3%;
-
 }
+
+/* DIV - FORMULARIO */
+
+.formulario{
+    width: 400px;
+    border: 0.1px solid rgb(202, 198, 198);
+    box-shadow: 0.1px 0px 0px 0px rgb(158, 156, 156);
+    border-radius: 3%;
+}
+
+/* SECCIÓN REDES */
 
 .seccionRedes{
     display: column;    
@@ -48,22 +60,44 @@
     justify-content: center;
 }
 
-.continuarFormulario{
-    display: flex;
-    justify-content: center;
 
-    text-decoration: underline;
-    text-underline-position: under;
+
+/* TEXTO CENTRAL - OR CONTINUE WITH */
+
+.textoConLinea{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    line-height: 1%;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: rgb(109, 106, 106);
+    text-align: center;
+    height: 2.5em;
+    opacity: .5;
 }
+.textoConLinea:before {
+    content: '';    
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  .textoConLinea:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
 
-.formulario{
-    width: 400px;
-    border: 0.1px solid rgb(202, 198, 198);
-    box-shadow: 0.1px 0px 0px 0px rgb(158, 156, 156);
-    border-radius: 3%;
-}
+    padding: 0.5em;
+    line-height: 1.5em;    
+    color: #818078;
+    background-color: #fcfcfa;
+  }
 
-
+/* BOTONES MAIL O NUMBER */
 
 .divBotonesMailNumber{
     display: flex;
