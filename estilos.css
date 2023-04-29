@@ -61,24 +61,24 @@
 }
 
 
-
 /* TEXTO CENTRAL - OR CONTINUE WITH */
 
-.textoConLinea{
+.textoConLinea {
     font-family: Arial, Helvetica, sans-serif;
-   
-    line-height: 1%;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1em;
     position: relative;
     outline: 0;
     border: 0;
-    color: rgb(109, 106, 106);
-    text-align: center;
-    height: 2.5em;
-    opacity: .5;
-}
-.textoConLinea:before {
-    content: '';    
-    background: linear-gradient(to right, transparent, #818078, transparent);
+    color: black;
+    text-align: center;    
+    height: 1.5em;
+    opacity: 0.5;
+  }
+  .textoConLinea:before {
+    content: "";
+    background: linear-gradient(to right, transparent, #5e5d5a, transparent);
     position: absolute;
     left: 0;
     top: 50%;
@@ -90,9 +90,8 @@
     position: relative;
     display: inline-block;
     color: black;
-
-    padding: 0.5em;
-    line-height: 1.5em;    
+    padding: 0 0.5em;
+    line-height: 1.5em;
     color: #818078;
     background-color: #fcfcfa;
   }
