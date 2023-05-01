@@ -20,22 +20,22 @@
 
 
 .imagen{
-    width: 400px;
+    width: 450px;
     display: inline-block;
     position: relative;
     overflow: hidden;
     border-radius: 3%; 
-    
+    margin-right: 2%;
     }
 
 /* DIV - FORMULARIO */
 
 .formulario{
-    width: 500px;
+    width: 370px;
     border: 0.01px solid rgb(226, 217, 217);
     box-shadow: 0px -2px 10px rgba(185, 183, 183, 0.5);
     border-radius: 3%;  
-    margin-left: 5%;     
+    margin-left: 1%;     
 }
 
 /* SECCIÓN REDES */
