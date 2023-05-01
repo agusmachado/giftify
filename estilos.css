@@ -13,26 +13,29 @@
     justify-content: space-between;    
     position: relative;
     padding: 40px;
-    margin: 15px auto;   
+    margin: 5% 25% 0 25%;   
 }
 
 /* DIV - IMAGEN PRINCIPAL */
 
 
 .imagen{
+    width: 400px;
     display: inline-block;
     position: relative;
     overflow: hidden;
     border-radius: 3%; 
+    
     }
 
 /* DIV - FORMULARIO */
 
 .formulario{
-    width: 390px;
+    width: 500px;
     border: 0.01px solid rgb(226, 217, 217);
     box-shadow: 0px -2px 10px rgba(185, 183, 183, 0.5);
-    border-radius: 3%;       
+    border-radius: 3%;  
+    margin-left: 5%;     
 }
 
 /* SECCIÓN REDES */
