@@ -104,6 +104,9 @@
 .divBotonesMailNumber{
     display: flex;
     justify-content: space-around; 
+    margin-left: 17%;
+    margin-right: 17%;
+
 }
 
 .boton{
@@ -111,11 +114,22 @@
     font-size: 12px;
     font-weight: bold;
     color: white;
-    background-color: rgb(231, 99, 22);
+    background-color: rgb(255, 115, 28);
     width: 80px;
     border: none;
-    border-radius: 7%;
+    border-radius: 7px;
+    height: 38px;
 }
+.boton:hover{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+}
+
 .boton2{
     
     font-size: 12px;
@@ -126,15 +140,24 @@
     border: none;
     border-radius: 7%;
 }
+.boton2:hover{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 115, 28);
+    width: 110px;
+    border: none;
+    border-radius: 7px;
+    height: 38px;
+}
 
 /* INPUTS FORMULARIO */
 
 .inputsFormulario{
     width: 400px;
-    padding: 30px;
-    /* margin: auto;  */ 
-      
+    padding: 20px;      
 }
+
 .inputsFormulario p{
     font-size: 12px;
     color: #8d8c89;
@@ -164,8 +187,17 @@
     font-size: 12px;
     font-weight: bold;
     color: white;
-    background-color: rgb(231, 99, 22);
-    width: 180px;
+    background-color: rgb(255, 115, 28);
+    width: 50%;
     border: none;
-    border-radius: 7%;
+    border-radius: 7px;
+}
+
+.formularioSignIn{
+    text-align: center; 
+    font-size: 11px;
+    color: #6e6a6a;   
+}
+.formularioSignIn a{
+    color: rgb(255, 115, 28);
 }
