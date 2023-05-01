@@ -53,7 +53,8 @@
 .divIconosRedes{
     display: flex;
     justify-content: center;
-    text-align: center;  
+    text-align: center; 
+    height: 85px; 
 }
 
 .iconoRed{
@@ -191,6 +192,15 @@
     font-weight: bold;
     color: white;
     background-color: rgb(255, 115, 28);
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+}
+.boton3:hover{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
     width: 50%;
     border: none;
     border-radius: 7px;
